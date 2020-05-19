@@ -1,0 +1,8 @@
+#!/bin/csh
+#$ -M pfaley@nd.edu
+#$ -m abe
+#$ -q long
+#$ -pe smp 8
+
+module load python/
+./build_dataset.sh
